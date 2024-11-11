@@ -27,14 +27,3 @@ public class Gate implements Runnable {
 
     }
 }
-
-//    public void processCarArrival(int carId, int arrivalTime, int parkTime) {
-//        Car car = new Car(carId, gateNum, parkTime, parkingLot, logger);
-//        try {
-//            Thread.sleep(arrivalTime * 1000);
-//            car.start();
-//        } catch (InterruptedException e) {
-//            Thread.currentThread().interrupt();
-//        }
-//    }
-
